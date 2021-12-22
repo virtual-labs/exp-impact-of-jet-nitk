@@ -2,38 +2,72 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "In case of curved vane force on plate is equal to",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "1/2 x force on flat plate",
+        "b": "2x force on flat plate",
+        "c": "Force on flat plate",
+        "d": "4x force on flat plate"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": ""
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In case of flat vanes the jet deflects at an angle of",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "90&deg;",
+        "b": "180&deg;",
+        "c": "45&deg;",
+        "d": "None of these"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "The horizontal component of the force on a curved surface is equal to",
+      "answers": {
+        "a": "Force on a vertical projection of the curved surface",
+        "b": "Weight of liquid vertically below the curved surface",
+        "c": "Product of pressure at its centroid and the area",
+        "d": "Weight of liquid retained by the curved area"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    },
+    {
+      "question": "Find the force exerted by a jet of water of diameter 75mm on a stationary flat plate, the jet strikes the plate normally with the velocity of 20m/s.",
+      "answers": {
+        "a": "1767N",
+        "b": "1707N",
+        "c": "1677N",
+        "d": "1776N"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
     }
   ]
 }
