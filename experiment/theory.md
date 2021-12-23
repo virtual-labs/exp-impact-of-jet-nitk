@@ -29,10 +29,10 @@ let,</br><img src="images/eqn 1.png" style="width:159px; height:25px;"></br>
 <img src="images/eqn 2.png" style="width:265px; height:45px;"></br>
 <img src="images/eqn 3.png" style="width:159px; height:25px;"></br>
 
-<p style="text-indent: 50px;">The jet after striking the plate will move along the plate. But the plate is right angles to the jet. Hence the jet after striking will get deflected by 90°. Hence the component of the velocity of the jet, in the direction of the jet, after striking will be zero. The force exerted by the jet on the plate in the direction of the jet.
+<p style="text-indent: 50px;">The jet after striking the plate will move along the plate. But the plate is right angles to the jet. Hence the jet after striking will get deflected by 90°. Hence the component of the velocity of the jet, in the direction of the jet, after striking will be zero. The force exerted by the jet on the plate in the direction of the jet
 </p>
 
-<p>= (initial momentum - final momentum)/ time</p></br>
+<p>= (initial momentum - final momentum)/ time</p>
 <img src="images/eqn 6.png"  style =" width:205px; height:25px;"></br>
 <img src="images/eqn 7.png"  style =" width:219px; height:28px;"></br>
 <img src="images/eqn 8.png"  style =" width:89px; height:28px;"></br>
