@@ -2,7 +2,7 @@
 var mpointer = 0;
 var repeat = 0;
 var flag = 1;
-var lnt = 3;
+var lnt = 0;
 
 var ansDisplay = 0,
   compareVal = 0,
