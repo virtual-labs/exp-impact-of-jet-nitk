@@ -1,0 +1,52 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Impact of jet means the force exerted by the",
+      "answers": {
+        "a": "Plate on the jet",
+        "b": "Jet on the plate",
+        "c": "Any of the above",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "Mass of water striking the plate per second is &rho;aV. (Say true or false)",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "",
+        "b": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "A jet of water of diameter 75mm,velocity 25m/sec strikes a fixed plate in such a way that the angle between the jet and plate is 60&deg; Find the force exerted by the jet on the plate in direction normal to the plate.",
+      "answers": {
+        "a": "2350N",
+        "b": "2530N",
+        "c": "2391N",
+        "d": "2931N"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    }
+  ]
+}

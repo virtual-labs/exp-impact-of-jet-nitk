@@ -1,0 +1,565 @@
+<!DOCTYPE html><html lang="en"><head>
+      <!--Google Tag Manager-->
+      <script class="gtm">
+        var dataLayer = [{
+        'labName': 'Virtual Lab',
+        'discipline': 'Test',
+        'college': 'NITK',
+        'phase': 'Testing',
+        'expName': 'IMPACT OF JET',
+        'expShortName': 'impact-of-jet'
+        }];
+    
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5NMQ9NQ');
+      </script>
+      <!--End Google Tag Manager-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    
+    	<meta name="experiment-short-name" content="impact-of-jet">
+    	<meta name="developer-institute" content="NITK">
+    	<meta name="learning-unit" content="IMPACT OF JET">
+    	<meta name="task-name" content="Theory">
+    
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Virtual Labs</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/github-markdown.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.6-b/css/style.min.css">
+    <link rel="stylesheet" href="./assets/css/vlabs-style.css">
+    
+    <script src="./assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+  </head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+      <!--Google Tag Manager (noscript)-->
+      <noscript class="gtm">
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-5NMQ9NQ" style="display:none;visibility:hidden" width="0">
+        </iframe>
+      </noscript>
+      <!--End Google Tag Manager (noscript)-->
+  
+      <header class="vlabs-header sticky-top bg-white">
+        <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+          
+          <button class="navbar-toggler px-4" type="button" onclick="toggle()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="d-flex justify-content-center">        
+            <a href="https://vlab.co.in" class="navbar-brand">
+              <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+            </a>
+          </div>
+          
+          <div id="headerNavbar" class="d-none border-top flex-grow-1 d-lg-flex align-items-center">
+            <ul class="navbar-nav ml-auto text-center d-flex flex-md-row">
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in">HOME</a>
+              </li>
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in/participating-institutes">PARTNERS</a>
+              </li>
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in/contact-us">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+        <div class="row d-flex justify-content-between">
+          <div class="flex-column">
+		  <div class="row py-4 px-4 breadcrumbs">
+		  	<div class="title is-4 tools">Tools</div>
+		  	<span class="mx-2">
+		  		<i aria-hidden="true" class="fa fa-angle-right"></i>
+		  	</span>
+		  	<a href="performance-report.html" target="_blank">
+		  		<button class="v-button">Performance Tool</button>
+		  	</a>
+		  </div>
+	  </div>
+          <div class="flex-column">
+            <div id="plugin-bug-report"></div>
+            <div id="plugin-rating"></div>
+          </div>
+        </div>
+        <div class="row flex-grow-1 d-flex flex-nowrap flex-column flex-lg-row">
+          <div class="modal fade popupmenu" id="popupMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                              <a href="https://vlab.co.in" class="navbar-brand">
+                                  <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+                              </a>
+                          </h5>
+                          <button type="button" class="btn-close align-self-center" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body nav-menu">
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="index.html" class="p-2 ">
+                                      Aim
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="theory.html" class="p-2  current-item ">
+                                      Theory
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="procedure.html" class="p-2 ">
+                                      Procedure
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="pretest.html" class="p-2 ">
+                                      Self Evaluation
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="simulation.html" class="p-2 ">
+                                      Simulation
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="assignment.html" class="p-2 ">
+                                      Assignment
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="posttest.html" class="p-2 ">
+                                      Quiz
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="videos.html" class="p-2 ">
+                                      Videos
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="references.html" class="p-2 ">
+                                      References
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="feedback.html" class="p-2 ">
+                                      Feedback
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="nav flex-column sidebar nav-menu flex-shrink-0 px-lg-4 align-items-center align-items-lg-start hidden d-none d-lg-flex" id="menu">
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="index.html" class="p-2 ">
+                        Aim
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="theory.html" class="p-2  current-item ">
+                        Theory
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="procedure.html" class="p-2 ">
+                        Procedure
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="pretest.html" class="p-2 ">
+                        Self Evaluation
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="simulation.html" class="p-2 ">
+                        Simulation
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="assignment.html" class="p-2 ">
+                        Assignment
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="posttest.html" class="p-2 ">
+                        Quiz
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="videos.html" class="p-2 ">
+                        Videos
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="references.html" class="p-2 ">
+                        References
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="feedback.html" class="p-2 ">
+                        Feedback
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+          </div>          <div class="vlabs-page-content px-5 pb-4 flex-grow-1 markdown-body">
+            <div class="text-center fix-spacing">
+              <h2 id="impact-of-jet">Impact of Jet</h2>
+          
+            </div>
+              <h3 id="introduction">INTRODUCTION<br></h3>
+          <p style="text-indent: 50px; text-align : justify;">The liquid comes out in the form of a jet from the outlet of a nozzle, which is fitted to a pipe through which the liquid if flowing under pressure. If some plate, which may be fixed or moving, is placed in the path of the jet, a force is exerted by the jet on the plate. This force is obtained from Newton’s second law of motion or from impulse-moment equation. Thus impact of jet means the force exerted by the jet on a plate which may be stationary or moving. In this chapter, the following cases of the impact jet i.e., the force exerted by the jet on a plate, will be considered:</p>
+          
+          <ol type="1">
+              <li> Force exerted by a jet on a stationary plate when
+                  <ol type="a">
+                      <li>Plate is vertical to the jet, </li>
+                      <li> Plate is inclined to the jet, and</li>
+                      <li> Plate is curved.</li>
+                  </ol>
+              </li><br>
+              <li>Force is exerted by the jet on the moving plate, when
+                  <ol type="a">
+                      <li> Plate is vertical to the jet,</li>
+                      <li>Plate is inclined to the jet, and </li>
+                      <li> Plate is curved</li>
+                  </ol>
+              </li>
+          </ol>
+          
+          <h3 id="force-exerted-by-a-jet-on-a-stationary-vertical-plate-">Force exerted by a jet on a stationary vertical plate :</h3>
+          <p style="text-align : justify;">Consider a jet of water coming out of the nozzle, strikes a flat vertical plate as shown in the Figure 1.</p>
+          
+          <p></p><center><img src="images/jet_t1.png" style="width:600px; height:442px;"></center><p></p>
+          
+          <p>let,<br><img src="images/eqn 1.png" style="width:159px; height:25px;"><br>
+          <img src="images/eqn 2.png" style="width:265px; height:45px;"><br>
+          <img src="images/eqn 3.png" style="width:159px; height:25px;"><br></p>
+          <p style="text-indent: 50px;">The jet after striking the plate will move along the plate. But the plate is right angles to the jet. Hence the jet after striking will get deflected by 90°. Hence the component of the velocity of the jet, in the direction of the jet, after striking will be zero. The force exerted by the jet on the plate in the direction of the jet
+          </p>
+          
+          <p>= (initial momentum - final momentum)/ time</p>
+          <img src="images/eqn 6.png" style=" width:205px; height:25px;"><br>
+          <img src="images/eqn 7.png" style=" width:219px; height:28px;"><br>
+          <img src="images/eqn 8.png" style=" width:89px; height:28px;"><br>
+          <img src="images/eqn 9.png" style=" width:58px; height:32px;"><br>
+          
+          <p style="text-indent: 50px; text-align : justify;">For deriving the above equation, we have taken initial velocity minus final velocity and not final
+          velocity minus initial velocity. If the force exerted on the jet is to be calculated then final minus the
+          initial velocity is taken. But if the force exerted by the jet on the plate is to calculated, then initial
+          velocity minus the final velocity is taken.</p>
+          
+          <h3 id="force-exerted-by-a-jet-on-a-stationary-inclined-flat-plate-">Force exerted by a jet on a stationary inclined flat plate :</h3>
+          <p>Let a jet of water, coming out from the nozzle; strike an inclined flat plate as shown in the figure.2.</p>
+          <p></p><center><img src="images/jet_t2.png" style="width:600px; height:437px;"></center><p></p> <br>
+          
+          <p>Let</p>
+          <img src="images/eqn 10.png" style=" width:265px; height:45px;"><br>
+          v = velocity of the  jet in the direction of X <br>
+          θ = Angle between the jet and the plate <br><br>
+          <img src="images/eqn 13.png" style=" width:436px; height:25px;"><br>
+          
+          <p style="text-align : justify;">If the plate is assumed smooth and if it is assumed that there is no loss of energy due to the impact of
+          the jet, then the jet will move over the plate after striking with a velocity equal to initial velocity i.e.,
+          with a velocity V.</p>
+          <p style="text-align : justify;"> Let find the force exerted by the jet on the plate In the direction normal to the plate. Let this force is represented by
+          F<sub>n</sub> </p>
+          
+          <p style="text-align : justify;">then, F<sub>n</sub> = Mass of the jet striking per second × [initial velocity of the jet before striking in the direction
+          of n - final velocity of the jet after striking in the direction of n </p><br>
+          
+          <p><img src="images/eqn 14.png" style=" width:229px; height:28px;"><br></p>
+          <p style="text-align : justify;">If the force can be resolved into two components, one in the direction of the jet and the other perpendicular to the direction
+          of the flow. Then we have,</p><br>
+          
+          <p> <img src="images/eqn 15.png" style=" width:118px; height:28px;">(along the direction of the flow) and</p>
+          
+          <p><img src="images/eqn 16.png" style="width:143px; height:28px ;vertical-align:middle"> </p><p>(perpendicular to flow)</p><p></p>
+          <h3 id="force-exerted-by-a-jet-on-a-stationary-cover-plate">Force exerted by a jet on a stationary cover plate:</h3>
+          <p style="text-indent: 50px; text-align : justify;">Jet strikes the curved plate at the centre. Let a jet of water strike a fixed curved plate at the
+          centre as shown in figure.3. The jet after striking the plate comes out with the same velocity if the plate is smooth and there is no loss of energy due to impact of the jet, in the tangential
+          direction of the curved plate. The velocity at the outlet of the plate can be resolved in to two components, one in the direction of the jet and the other perpendicular to the direction of the jet.</p>
+          
+          <p><span>Component of velocity In the direction of the jet = <img src="images/ysTmAoN0.png" style=" width:70px; height:20px;vertical-align:middle"></span></p>
+          <p></p><center><img src="images/jet_t3.png" style="width:500px; height:420px;"></center><p></p>
+          
+          <p style="text-align : justify;">(-ve sign is taken as the velocity at the outlet is in the opposite direction of the jet of water coming out from nozzle).</p>
+          <span>Component of the velocity perpendicular to the jet = <img src="images/HCO3c3Qb.png" style=" width:47px; height:17px; vertical-align:middle"></span><br>
+          
+          <p>Force exerted by the jet In the direction of the jet,</p>
+          
+          <img src="images/eqn 17.png" style=" width:198px; height:28px;">
+          
+          <p><span>where, </span><br>
+          <img src="images/eqn 18.png" style=" width:301px; height:28px;vertical-align:middle">
+          <br></p>
+          <p> v<sub>2</sub> = final velocity in the direction of the jet= v cos θ</p><br>
+          
+          <p><img src="images/eqn 20.png" style=" width:301px; height:28px;"><br>
+          <img src="images/eqn 21.png" style=" width:127px; height:28px;"><br></p>
+          <p><span>similarly </span></p>
+          <img src="images/eqn 22.png" style=" width:206px; height:28px; vertical-align:middle">
+          
+          <p><span>where, </span></p>
+          <img src="images/eqn 23.png" style=" width:273px; height:25px;vertical-align:middle">
+          
+          
+          <p><img src="images/eqn 24.png" style=" width:303px; height:25px;"><br>
+          <img src="images/eqn 25.png" style=" width:218px; height:25px;"></p>
+          <p><span>-ve sign means the force is acting in the downward direction. In this case the angle of deflection of the jet = <img src="images/eqn 26.png" style=" width:83px; height:25px;vertical-align:middle"></span></p>
+          <p style="text-align : justify;">Jet strikes the curved plate at on e end tangentially when the plate is symmetrical Let the jet strike the curved plate at one end tangentially as shown in the figure.4. Let the curved is
+          symmetrical about x-axis. Then the angle made by the tangents at the two ends of the plate will be same.</p>
+          
+          <p>Let V = Velocity of the jet of water</p>
+          
+          <p>θ =angle made by jet with x-axis at inlet tip of the curved plate.</p>
+          
+          <p style="text-align : justify;">If the plate is smooth and loss of energy due to impact is zero, then the velocity of the water at the outlet tip of the curved plate will be equal to V. The force exerted by the jet of water in the direction of x and y are</p>
+          
+          <p><img src="images/eqn 28.png" style=" width:175px; height:25px;"><br>
+          <img src="images/eqn 29.png" style=" width:183px; height:26px;"><br>
+          <img src="images/eqn 30.png" style=" width:163px; height:26px;"><br>
+          <img src="images/eqn 31.png" style=" width:126px; height:26px;"><br>
+          <img src="images/eqn 32.png" style=" width:182px; height:26px;"></p>
+          <p></p><center><img src="images/jet_t4.png" style="width:550px; height:407px;"></center><p></p><br>
+          
+          <p style="text-indent: 50px; text-align : justify;">Jet strikes the curved plate at one end tangentially when the plate is unsymmetrical When the curve plate is unsymmetrical about x axis, then the angles made by the tangents drawn at the inlet and outlet tips of the plate with x-axis will be different.</p>
+          
+          <p> θ = angle made by the tangent at the tip with the x – axis,</p><br>
+          
+          <p></p><center><img src="images/jet_t5.png" style="width:500px; height:371px;"></center><p></p><br>
+          
+          <p>φ = angle made by the tangent at the outlet tip with x-axis.</p>
+          
+          <p>The two component of the velocity at inlet are</p>
+          <img src="images/eqn 33.png" style=" width:180px; height:25px;">
+          <p>The two component of the velocity at outlet are</p>
+          <img src="images/eqn 34.png" style=" width:196px; height:26px;"><br>
+          
+          <p>∴ The force exerted by the jet of water in the direction o x and y are</p>
+          <img src="images/eqn 35.png" style=" width:223px; height:26px;"><br>
+          <img src="images/eqn 36.png" style=" width:190px; height:26px;"><br>
+          <img src="images/eqn 37.png" style=" width:134px; height:26px;"><br>
+          <img src="images/eqn 38.png" style=" width:222px; height:27px;"><br>
+          <img src="images/eqn 39.png" style=" width:158px; height:26px;"><br>
+          <img src="images/eqn 40.png" style=" width:137px; height:26px;">
+          
+          </div>
+        </div>
+      </div>
+      <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
+        <div class="row px-5 mx-0">
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+            <a href="https://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+            <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+            <a href="https://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+            <span> Phone: General Information: 011-26582050 </span>
+            <span> Email: support@vlabs.ac.in </span>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+            <div class="social-links">
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+      	  <i class="fa fa-twitter"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+      	  <i class="fa fa-facebook"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+      	  <i class="fa fa-youtube"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+      	  <i class="fa fa-linkedin"></i>
+      	</a>
+            </div>
+          </div>
+        </div>
+        <div class="m-0 py-2 text-center" style="font-family: &quot;Open Sans&quot;, sans-serif; background: #212121;">
+          <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+          &nbsp;&amp;&nbsp;
+          <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+        </div>
+      </footer>
+
+      <script src="./assets/js/toggleSidebar.js"></script>
+      
+  
+
+<script type="module" src="https://vjspranav.github.io/vleads-bug-report/client/app.js"></script></body></html>
